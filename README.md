@@ -33,9 +33,12 @@ Therefore, we have built a solution to this problem. Our solution makes it easy 
 We provide the users with a web interface (integrated with deep learning models) wherein they can upload the MRI or CT scans and in a matter of few seconds, they get to know whether they have Cancer (Brain Tumor/ Breast Cancer/ Leukemia). With this we aim to make it sustainable for doctors to detect a patient's cancer as well as for low income individuals to atleast get the fundamental right to basic healthcare, i.e. knowing if they have cancer and thus getting the required diagnosis.
 
 # Solution
+
 <ins>**Brain Tumor**</ins><br />
+
 Model used: VGG-16
 ![image](https://github.com/shshwtsrkr/Biopsy-AI/blob/main/model_images/VGG16.jpg)<br />
+
 VGG-16 is a deep neural network architecture used for image recognition and classification tasks. It consists of 16 layers of convolutional and fully connected layers, trained on a large dataset of images. VGG-16 works by taking an image as input and passing it through a series of convolutional layers that extract important features from the image. These features are then passed through fully connected layers, which classify the image into different categories based on the learned features.
 
 VGG-16 is a widely used convolutional neural network (CNN) model that has demonstrated high accuracy in image recognition tasks, including medical image analysis. It has been successfully applied in various applications, such as object detection, facial recognition, and image classification.
@@ -50,8 +53,10 @@ Overall, the use of VGG-16 for brain cancer detection in BiopsyAI is a promising
 
 
 <ins>**Leukemia**</ins><br />
+
 Model used: EfficientNet-B3
 ![image](https://github.com/shshwtsrkr/Biopsy-AI/blob/main/model_images/EfficientNet-B3.png)<br />
+
 EfficientNet-B3 is a convolutional neural network (CNN) model that has achieved state-of-the-art performance on several image recognition tasks. It is part of the EfficientNet family of models, which were designed to achieve high accuracy with fewer parameters and less computational cost compared to traditional CNN models.
 
 The EfficientNet-B3 model is characterized by its depth, width, and resolution scaling. The depth scaling involves increasing the number of layers in the network, which allows it to learn more complex features. The width scaling involves increasing the number of channels in the layers, which allows it to capture more diverse features. The resolution scaling involves increasing the image size, which allows it to capture more fine-grained details.
@@ -70,8 +75,10 @@ Overall, the use of EfficientNet-B3 for Leukemia cancer detection in BiopsyAI is
 
 
 <ins>**Breast Cancer**</ins><br />
+
 Model used: EfficientNet-B7
 ![image](https://github.com/shshwtsrkr/Biopsy-AI/blob/main/model_images/EfficientNet-B7.png)<br />
+
 EfficientNet-B7 is a convolutional neural network (CNN) architecture that belongs to the EfficientNet family of models. The model is designed to efficiently scale up CNNs with a combination of scaling methods including depth, width, and resolution. EfficientNet-B7 has a total of 66.6 million parameters, making it one of the largest and most powerful CNN models available. It has been used in various computer vision tasks, including object detection, image classification, and segmentation. In the context of medical imaging, EfficientNet-B7 has been shown to be effective in detecting breast cancer and other types of cancer.
 
 It uses depthwise separable convolutions and squeeze-and-excitation blocks to reduce parameters while maintaining accuracy. It also includes a compound scaling method and achieves state-of-the-art results on computer vision tasks, making it well-suited for applications requiring high accuracy and efficiency, such as medical image analysis.
