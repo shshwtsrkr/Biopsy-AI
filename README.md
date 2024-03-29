@@ -6,7 +6,6 @@ This project is our submission, for the Google Solution Challenge 2023.
 With this project, we hope to make an impact and contribute to the field of Good Health and Wellbeing.
 <br />
 <br />
-# Usage
 
 # Motivation 
 Sustainability is the ability to meet the needs of the present without compromising our future needs. Therefore, unsustainable progress may result in short-term gains, but it has negative consequences into various dimensions of our lives in the long run such as health degradation, social inequality, and economic instability. Sustainability therefore, is the key ingredient for ensuring that progress is inclusive and beneficial for everyone.
